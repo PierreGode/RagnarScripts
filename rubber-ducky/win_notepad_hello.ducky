@@ -1,0 +1,10 @@
+REM RagnarScripts test payload - opens Notepad and types a greeting (Windows)
+REM Harmless demo: proves the HID gadget is typing into the target host.
+DELAY 1000
+GUI r
+DELAY 500
+STRING notepad
+ENTER
+DELAY 1200
+STRING Hello from RagnarScripts!
+ENTER

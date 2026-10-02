@@ -1,0 +1,12 @@
+{
+  "id": "cisco_show_run",
+  "name": "Show Running Config (Cisco)",
+  "description": "Enter enable mode, disable paging and dump the full running configuration.",
+  "vendor": "cisco",
+  "commands": [
+    {"cmd": "", "delay": 0.5},
+    {"cmd": "enable", "delay": 1},
+    {"cmd": "terminal length 0", "delay": 0.5},
+    {"cmd": "show running-config", "delay": 2}
+  ]
+}

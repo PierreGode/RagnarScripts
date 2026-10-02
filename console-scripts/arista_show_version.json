@@ -1,0 +1,10 @@
+{
+  "id": "arista_show_version",
+  "name": "Show Version (Arista)",
+  "description": "Read EOS version, model and uptime on an Arista switch.",
+  "vendor": "arista",
+  "commands": [
+    {"cmd": "", "delay": 0.5},
+    {"cmd": "show version", "delay": 2}
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "id": "juniper_show_interfaces",
+  "name": "Show Interfaces (Juniper)",
+  "description": "List interface status in the compact 'terse' form on a Junos device.",
+  "vendor": "juniper",
+  "commands": [
+    {"cmd": "", "delay": 0.5},
+    {"cmd": "show interfaces terse", "delay": 2}
+  ]
+}
